@@ -1,0 +1,4 @@
+- Always follow the instructions in `./instructions/main.agent.md`.
+- Load the complete catalog, not a partial excerpt.
+- Follow the linked workflow instruction that matches the current request.
+- Reload the catalog on every request so the latest project instructions are used.

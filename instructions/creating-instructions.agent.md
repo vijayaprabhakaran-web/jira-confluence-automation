@@ -1,0 +1,8 @@
+- Use this instruction when creating, updating, or routing project instructions.
+- Keep canonical, platform-agnostic workflow instructions in `instructions/` as verb-first `[name].agent.md` files; keep each file focused on one workflow.
+- Maintain `instructions/main.agent.md` as the instruction catalog, with a short description and useful trigger keywords for every entry.
+- Keep IDE-specific files as thin wrappers that point to canonical instructions instead of duplicating their guidance.
+- For GitHub Copilot, use `.github/copilot-instructions.md` to load the complete catalog on every request and `.github/prompts/` for focused prompt wrappers.
+- Preserve existing instruction content when updating; make targeted additions and keep linked paths valid.
+- Validate instruction frontmatter, wrapper references, catalog entries, and workspace settings after changes.
+- Use the [source guide](https://github.com/codenjoyme/vibecoding-training/blob/main/instructions/creating-instructions.agent.md) for the full cross-IDE architecture and setup guidance.
