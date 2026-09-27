@@ -18,7 +18,7 @@
 - [ ] Calculate committed, completed, remaining, and unestimated work, with clear handling for zero estimates and missing sprint data.
 - [ ] Build a burndown data model for planned and actual remaining issue count and story points across the selected sprint's dates.
 - [ ] Calculate historical completed-point velocity and a completion forecast; report when history or estimates are insufficient for a reliable forecast.
-- [ ] Derive blocked, overdue, scope-added, and capacity-risk signals from issue and sprint data; return explanatory states when a signal cannot be calculated.
+- [ ] Derive blocked, overdue, scope-added, and capacity-risk signals from issue and sprint data; return explanatory states when a signal cannot be calculated. (#2)
 - [ ] Add focused unit tests for progress, date boundaries, burndown, forecast, unestimated issues, and each risk rule as the calculations are implemented.
 - [ ] Build the Streamlit sample-data dashboard with a sprint selector and summary metrics for sprint dates, progress, remaining work, and health.
 - [ ] Add progress views for burndown, planned-versus-actual work, and historical velocity, with issue-count and story-point views where the data supports them.
