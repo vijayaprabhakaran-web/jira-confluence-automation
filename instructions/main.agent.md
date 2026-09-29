@@ -7,6 +7,9 @@ Use this catalog to select the project workflow instruction matching the request
 - [`./implement-core-feature.agent.md`](./implement-core-feature.agent.md) — implement a focused Jira dashboard core feature from the backlog and validate it.
   + Keywords: implement feature, core feature, dashboard, backlog
   + Target: `backlog.md`, `project_spec.md`, `DATA_CONTRACT.md`
+- [`./implement-burndown-model.agent.md`](./implement-burndown-model.agent.md) — implement and validate the pure burndown data model.
+  + Keywords: burndown model, burndown calculation, planned remaining work, actual remaining work
+  + Target: `burndown.py`, `tests/test_burndown.py`
 - [`./calculate-compound-interest.agent.md`](./calculate-compound-interest.agent.md) — calculate compound interest with the project CLI and present its output.
   + Keywords: compound interest, interest calculation, final amount, interest earned
   + Target: `tools/compound_interest.py`

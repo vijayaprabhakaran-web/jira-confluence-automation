@@ -7,7 +7,7 @@
 
 ## Phase 2: Implementation
 - [x] Create data fetching module
-- [ ] Build report template
+- [ ] Build report template (#1)
 - [ ] Add formatting logic
 
 ## Progress Notes
